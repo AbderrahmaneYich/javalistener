@@ -24,7 +24,7 @@ public class Main {
         }
         Console.initLogger(activateLogFile);
         Env.printConfig();
-        Console.println("####################################################################", Console.Colors.getGREEN());
+        Console.println("####################################################################", Console.Colors.getRED());
         Console.println("####################################################################", Console.Colors.getGREEN());
         Console.printlnWithDate("starting Tracking Listener " + Env.app_version + "  ...");
         initDAO();
